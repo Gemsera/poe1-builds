@@ -203,5 +203,3 @@ parallel can run out of memory. Set `POE1_BUILDS_NO_CACHE=1` to bypass the resul
   bundled in `bin/`, under their own licences (`bin/LICENSE-*.txt`).
 - This project is not affiliated with or endorsed by Grinding Gear Games. Path of Exile is a
   trademark of Grinding Gear Games.
-
-<!-- Add a LICENSE file and state the project's licence here before publishing. -->
