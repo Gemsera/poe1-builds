@@ -1,0 +1,171 @@
+{
+ "name": "Elemental Hit of the Spectrum Warden",
+ "class": "Ranger",
+ "ascendancy": "Warden",
+ "level": 92,
+ "profile": {
+  "investment": "medium",
+  "content": "mapping",
+  "mode": "softcore"
+ },
+ "bandit": "None",
+ "pantheon_major": "Solaris",
+ "pantheon_minor": "Ryslatha",
+ "tree": {
+  "nodes": [
+   "Aspect of the Eagle",
+   "Farsight",
+   "Avatar of the Hunt",
+   "One With Nature",
+   "Primeval Force",
+   "Heart of Oak",
+   "Herbalism",
+   "Intuition",
+   "Quickstep",
+   "Revenge of the Hunted",
+   "Thick Skin",
+   "Taste for Blood",
+   "Entrench",
+   "Reflexes",
+   "Master Fletcher",
+   "Blood Siphon",
+   "Bravery",
+   "Essence Sap",
+   "Forces of Nature",
+   "Inveterate",
+   "Hired Killer",
+   "Blood Drinker",
+   "Golem's Blood",
+   "Constitution",
+   "Profane Chemistry"
+  ],
+  "ascendancy": [
+   4849,
+   11597,
+   31364,
+   55509
+  ],
+  "masteries": [
+   {
+    "mastery": "Evasion Mastery",
+    "effect": "100% increased Evasion Rating from Equipped Body Armour"
+   },
+   {
+    "mastery": "Elemental Mastery",
+    "effect": "Elemental Resistance values as inverted"
+   },
+   {
+    "mastery": "Bow Mastery",
+    "effect": "Projectile Speed also apply to Damage with Bows"
+   },
+   {
+    "mastery": "Life Mastery",
+    "effect": "+30 to maximum Life"
+   }
+  ]
+ },
+ "skills": [
+  {
+   "slot": "Body Armour",
+   "main": true,
+   "gems": [
+    {
+     "name": "Elemental Hit of the Spectrum",
+     "skill_part": "Attack"
+    },
+    "Elemental Damage with Attacks",
+    "Trinity",
+    "Mirage Archer",
+    "Barrage Support",
+    "Hypothermia"
+   ]
+  },
+  {
+   "slot": "Helmet",
+   "gems": [
+    "Grace",
+    "Precision"
+   ]
+  },
+  {
+   "slot": "Gloves",
+   "gems": [
+    "Dash",
+    "Second Wind"
+   ]
+  }
+ ],
+ "items": [
+  {
+   "slot": "Weapon 1",
+   "text": "Rarity: RARE\nStorm Song\nImperial Bow\nItem Level: 84\nAdds 120 to 215 Cold Damage\nAdds 125 to 240 Fire Damage\nAdds 22 to 390 Lightning Damage\n17% increased Attack Speed\n+40 to Dexterity\n+250 to Accuracy Rating"
+  },
+  {
+   "slot": "Weapon 2",
+   "text": "Rarity: RARE\nGale Thirst\nPrimal Arrow Quiver\nItem Level: 84\n+90 to maximum Life\nAdds 25 to 50 Cold Damage to Attacks\n12% increased Attack Speed\n+35% to Fire Resistance\n+30% to Lightning Resistance"
+  },
+  {
+   "slot": "Body Armour",
+   "text": "Rarity: RARE\nHonour Shroud\nZodiac Leather\nItem Level: 84\n+90 to maximum Life\n+250 to Evasion Rating\n70% increased Evasion Rating\n+14% chance to Suppress Spell Damage\n+35% to Cold Resistance\n+30% to Lightning Resistance"
+  },
+  {
+   "slot": "Helmet",
+   "text": "Rarity: RARE\nGale Crown\nLion Pelt\nItem Level: 84\n+80 to maximum Life\n+120 to Evasion Rating\n+35% to Fire Resistance\n+30% to Cold Resistance"
+  },
+  {
+   "slot": "Gloves",
+   "text": "Rarity: RARE\nKraken Grip\nSlink Gloves\nItem Level: 84\n+70 to maximum Life\nAdds 11 to 22 Cold Damage to Attacks\n12% increased Attack Speed\n+35% to Lightning Resistance\n+30% to Fire Resistance"
+  },
+  {
+   "slot": "Boots",
+   "text": "Rarity: RARE\nDread Tread\nSlink Boots\nItem Level: 84\n+70 to maximum Life\n30% increased Movement Speed\n+9% chance to Suppress Spell Damage\n+35% to Cold Resistance\n+25% to Chaos Resistance"
+  },
+  {
+   "slot": "Amulet",
+   "text": "Rarity: RARE\nRune Locket\nTurquoise Amulet\nItem Level: 84\n+60 to maximum Life\n33% increased Elemental Damage with Attack Skills\n+300 to Accuracy Rating\n+30% to Fire Resistance"
+  },
+  {
+   "slot": "Ring 1",
+   "text": "Rarity: RARE\nCorpse Band\nAmethyst Ring\nItem Level: 84\n+60 to maximum Life\nAdds 15 to 30 Cold Damage to Attacks\n+40 to Intelligence\n+35% to Lightning Resistance"
+  },
+  {
+   "slot": "Ring 2",
+   "text": "Rarity: RARE\nDoom Loop\nAmethyst Ring\nItem Level: 84\n+60 to maximum Life\nAdds 17 to 34 Fire Damage to Attacks\n+300 to Accuracy Rating\n+35% to Fire Resistance"
+  },
+  {
+   "slot": "Belt",
+   "text": "Rarity: RARE\nGlyph Cord\nStygian Vise\nItem Level: 84\n+100 to maximum Life\n33% increased Elemental Damage with Attack Skills\n+35% to Cold Resistance\n+30% to Lightning Resistance"
+  },
+  {
+   "slot": "Flask 1",
+   "base": "Divine Life Flask"
+  },
+  {
+   "slot": "Flask 2",
+   "text": "Rarity: MAGIC\nExperimenter's Quicksilver Flask of Adrenaline\nQuicksilver Flask\nItem Level: 84\nQuality: 20\n38% increased Duration\n10% increased Movement Speed during Effect"
+  },
+  {
+   "slot": "Flask 3",
+   "base": "Silver Flask"
+  },
+  {
+   "slot": "Flask 4",
+   "base": "Jade Flask"
+  },
+  {
+   "slot": "Flask 5",
+   "base": "Granite Flask"
+  }
+ ],
+ "config": {
+  "enemyIsBoss": "Pinnacle",
+  "conditionEnemyChilled": true,
+  "conditionEnemyShocked": true,
+  "conditionEnemyIgnited": true,
+  "configResonanceCount": 15
+ },
+ "_meta": {
+  "source": "generated with this skill (Elemental Hit of the Spectrum Warden); test fixture for requirement checks",
+  "note": "ascendancy notables are node ids: Mother's Teachings, Lesson of the Seasons, Oath of Spring, Avatar of the Wilds"
+ }
+}

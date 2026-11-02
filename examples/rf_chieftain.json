@@ -1,0 +1,173 @@
+{
+ "_meta": {
+  "archetype": "Righteous Fire degen (Chieftain)",
+  "source": "generated and validated with this skill",
+  "pob_version": "2.67.2",
+  "tree_version": "3_29",
+  "status": "VALID with the audit's mapping profile (2026-10-27)",
+  "limitations": [
+   "the 18 points the named targets leave over are spent by tree.fill (balanced): the report's Tree fill line shows where",
+   "rare weapon has 4 top-tier affixes (high investment)"
+  ]
+ },
+ "name": "RF Chieftain",
+ "class": "Marauder",
+ "ascendancy": "Chieftain",
+ "level": 90,
+ "profile": {
+  "investment": "high",
+  "content": "mapping",
+  "mode": "softcore"
+ },
+ "bandit": "None",
+ "pantheon_major": "Solaris",
+ "pantheon_minor": "Ralakesh",
+ "tree": {
+  "nodes": [
+   "Arsonist",
+   "Constitution",
+   "Heart of Oak",
+   "Golem's Blood",
+   "Hearty",
+   "Holy Fire",
+   "Purity of Flesh",
+   "Juggernaut",
+   26725,
+   "Heart of the Warrior",
+   "Barbarism",
+   "Combat Stamina",
+   "Bloodless",
+   "Discipline and Training",
+   "Devotion",
+   "Tireless",
+   "Unwavering Stance",
+   "Profane Chemistry",
+   "Bravery"
+  ],
+  "ascendancy": [
+   "Ramako, Sun's Light",
+   "Tasalio, Cleansing Water",
+   "Valako, Storm's Embrace",
+   "Ngamahu, Flame's Advance"
+  ],
+  "masteries": [
+   {
+    "mastery": "Life Mastery",
+    "effect": "+30 to maximum Life"
+   }
+  ],
+  "fill": "balanced"
+ },
+ "skills": [
+  {
+   "slot": "Body Armour",
+   "main": true,
+   "gems": [
+    "Righteous Fire",
+    "Burning Damage",
+    "Elemental Focus",
+    "Efficacy",
+    "Swift Affliction",
+    "Arcane Surge"
+   ]
+  },
+  {
+   "slot": "Helmet",
+   "gems": [
+    "Purity of Fire",
+    "Vitality",
+    "Enlighten"
+   ]
+  },
+  {
+   "slot": "Gloves",
+   "gems": [
+    "Flame Dash",
+    "Flammability",
+    "Faster Casting"
+   ]
+  },
+  {
+   "slot": "Boots",
+   "gems": [
+    {
+     "name": "Cast when Damage Taken",
+     "level": 1
+    },
+    {
+     "name": "Steelskin",
+     "level": 3
+    }
+   ]
+  }
+ ],
+ "items": [
+  {
+   "slot": "Body Armour",
+   "text": "Rarity: RARE\nPain Hide\nAstral Plate\nItem Level: 85\n+120 to maximum Life\n85% increased Armour\n+44% to Fire Resistance\n+40% to Cold Resistance\n+33% to Chaos Resistance"
+  },
+  {
+   "slot": "Weapon 1",
+   "text": "Rarity: RARE\nBlaze Song\nVoid Sceptre\nItem Level: 84\n+1 to Level of all Fire Spell Skill Gems\n104% increased Fire Damage\n+36% to Fire Damage over Time Multiplier\n+52 to Intelligence"
+  },
+  {
+   "slot": "Weapon 2",
+   "text": "Rarity: RARE\nDoom Ward\nTitanium Spirit Shield\nItem Level: 84\n+80 to maximum Life\n+42% to Fire Resistance\n+40% to Cold Resistance\n+30% to Chaos Resistance"
+  },
+  {
+   "slot": "Helmet",
+   "text": "Rarity: RARE\nGale Crown\nRoyal Burgonet\nHunter Item\nItem Level: 85\n+85 to maximum Life\n+42% to Cold Resistance\n+40% to Lightning Resistance\n+45 to Strength"
+  },
+  {
+   "slot": "Gloves",
+   "text": "Rarity: RARE\nHavoc Grip\nTitan Gauntlets\nItem Level: 84\n+80 to maximum Life\n+40% to Fire Resistance\n+40% to Lightning Resistance\n+40 to Strength"
+  },
+  {
+   "slot": "Boots",
+   "text": "Rarity: RARE\nDread Stride\nTitan Greaves\nItem Level: 84\n+80 to maximum Life\n30% increased Movement Speed\n+40% to Cold Resistance\n+40% to Lightning Resistance"
+  },
+  {
+   "slot": "Amulet",
+   "text": "Rarity: RARE\nRune Locket\nCoral Amulet\nItem Level: 84\nAllocates Golem's Blood (enchant)\n+85 to maximum Life\n+40% to Fire Resistance\n+40 to Strength\n+30 to Intelligence"
+  },
+  {
+   "slot": "Ring 1",
+   "text": "Rarity: RARE\nGlyph Band\nRuby Ring\nItem Level: 84\n+70 to maximum Life\n+40% to Cold Resistance\n+40% to Lightning Resistance\n+40 to Intelligence"
+  },
+  {
+   "slot": "Ring 2",
+   "text": "Rarity: RARE\nHate Loop\nRuby Ring\nItem Level: 84\n+70 to maximum Life\n+40% to Cold Resistance\n+40% to Lightning Resistance\n+40 to Dexterity"
+  },
+  {
+   "slot": "Belt",
+   "unique": "Immortal Flesh"
+  },
+  {
+   "slot": "Jewel",
+   "text": "Rarity: RARE\nCorpse Spark\nCrimson Jewel\nItem Level: 84\n7% increased maximum Life\n+7% to Fire Damage over Time Multiplier\n+15% to Fire Resistance"
+  },
+  {
+   "slot": "Flask 1",
+   "base": "Divine Life Flask"
+  },
+  {
+   "slot": "Flask 2",
+   "base": "Quicksilver Flask"
+  },
+  {
+   "slot": "Flask 3",
+   "base": "Ruby Flask"
+  },
+  {
+   "slot": "Flask 4",
+   "base": "Granite Flask"
+  },
+  {
+   "slot": "Flask 5",
+   "base": "Basalt Flask"
+  }
+ ],
+ "config": {
+  "enemyIsBoss": "Pinnacle"
+ }
+}

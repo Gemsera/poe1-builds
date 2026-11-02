@@ -1,0 +1,149 @@
+{
+  "_comment": "Advisory defaults for the quality audit in `pob.py build/check`. A failed check is a weakness to fix or explain, never an invalid build. Override per build with spec.profile.thresholds (same keys as a content entry). Max hits are compared after level and mode scaling. Layers count distinct mechanisms once (resistances, recovery and recoup are checked separately, not as layers).",
+  "content": {
+    "campaign": {
+      "max_hit": {
+        "Physical": 1500,
+        "Fire": 1500,
+        "Cold": 1500,
+        "Lightning": 1500,
+        "Chaos": 800
+      },
+      "min_chaos_res": -60,
+      "min_ele_res": 75,
+      "min_layers": 0,
+      "recovery": {
+        "regen_pct": 0.5,
+        "leech_pct": 2.0,
+        "recoup_pct": 10,
+        "es_recharge_counts": true,
+        "es_recharge_pct": 20
+      },
+      "require_freeze_immunity": false,
+      "require_stun_avoid_pct": 0
+    },
+    "mapping": {
+      "max_hit": {
+        "Physical": 6000,
+        "Fire": 6000,
+        "Cold": 6000,
+        "Lightning": 6000,
+        "Chaos": 3500
+      },
+      "min_chaos_res": -20,
+      "min_ele_res": 75,
+      "min_layers": 1,
+      "recovery": {
+        "regen_pct": 2.0,
+        "leech_pct": 5.0,
+        "recoup_pct": 15,
+        "es_recharge_counts": true,
+        "es_recharge_pct": 20
+      },
+      "require_freeze_immunity": false,
+      "require_stun_avoid_pct": 0
+    },
+    "bossing": {
+      "max_hit": {
+        "Physical": 8000,
+        "Fire": 8000,
+        "Cold": 8000,
+        "Lightning": 8000,
+        "Chaos": 5000
+      },
+      "min_chaos_res": 0,
+      "min_ele_res": 75,
+      "min_layers": 2,
+      "recovery": {
+        "regen_pct": 3.0,
+        "leech_pct": 8.0,
+        "recoup_pct": 20,
+        "es_recharge_counts": false,
+        "es_recharge_pct": 20
+      },
+      "require_freeze_immunity": true,
+      "require_stun_avoid_pct": 0
+    },
+    "uber": {
+      "max_hit": {
+        "Physical": 12000,
+        "Fire": 12000,
+        "Cold": 12000,
+        "Lightning": 12000,
+        "Chaos": 8000
+      },
+      "min_chaos_res": 30,
+      "min_ele_res": 75,
+      "min_layers": 3,
+      "recovery": {
+        "regen_pct": 4.0,
+        "leech_pct": 10.0,
+        "recoup_pct": 25,
+        "es_recharge_counts": false,
+        "es_recharge_pct": 20
+      },
+      "require_freeze_immunity": true,
+      "require_stun_avoid_pct": 0
+    }
+  },
+  "mode_multiplier": {
+    "softcore": 1.0,
+    "hardcore": 1.6
+  },
+  "level_scaling": [
+    {
+      "max_level": 40,
+      "factor": 0.15
+    },
+    {
+      "max_level": 60,
+      "factor": 0.3
+    },
+    {
+      "max_level": 75,
+      "factor": 0.55
+    },
+    {
+      "max_level": 85,
+      "factor": 0.8
+    },
+    {
+      "max_level": 100,
+      "factor": 1.0
+    }
+  ],
+  "critical_max_hit_fraction": 0.5,
+  "layer_rules": {
+    "_comment": "A mechanism counts as a layer when its PoB metric reaches the value. Guard/aegis are flat pools, counted only when they are this % of the life/ES pool. Each mechanism counts once: attack and spell block are one 'block' layer.",
+    "armour_phys_reduction_pct": 30,
+    "evade_pct": 40,
+    "attack_block_pct": 30,
+    "spell_block_pct": 30,
+    "spell_suppression_pct": 75,
+    "avoid_damage_pct": 10,
+    "mind_over_matter": 10,
+    "guard_pool_pct": 5,
+    "aegis_pool_pct": 5
+  },
+  "investment": {
+    "_comment": "Coarse realism heuristic, not a price estimate: the most top-tier affixes one rare may have before it is flagged as unrealistic for the investment level. Prices are never checked.",
+    "league_starter": {
+      "top_tier_affixes_per_rare": 1
+    },
+    "budget": {
+      "top_tier_affixes_per_rare": 2
+    },
+    "medium": {
+      "top_tier_affixes_per_rare": 3
+    },
+    "high": {
+      "top_tier_affixes_per_rare": 6
+    }
+  },
+  "dependency": {
+    "_comment": "A unique is a major dependency when removing it costs at least this much DPS or EHP (%).",
+    "major_pct": 25
+  },
+  "config_flag_pct": 5,
+  "stage_flag_pct": 10
+}

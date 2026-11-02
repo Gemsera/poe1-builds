@@ -1,0 +1,120 @@
+{
+ "_meta": {
+  "purpose": "test fixture: energy-shield / Chaos Inoculation defensive design (not a curated example)"
+ },
+ "name": "CI ES Occultist fixture",
+ "class": "Witch",
+ "ascendancy": "Occultist",
+ "level": 90,
+ "profile": {
+  "investment": "medium",
+  "content": "mapping",
+  "mode": "softcore"
+ },
+ "bandit": "None",
+ "pantheon_major": "Lunaris",
+ "pantheon_minor": "Abberath",
+ "tree": {
+  "nodes": [
+   "Chaos Inoculation",
+   "Deep Wisdom",
+   "Arcane Focus",
+   "Essence Surge",
+   "Unnatural Calm",
+   "Foresight",
+   "Light Eater",
+   "Insightfulness",
+   "Arcanist's Dominion",
+   "Frost Walker"
+  ],
+  "ascendancy": [
+   "Vile Bastion",
+   "Frigid Wake",
+   "Void Beacon",
+   "Profane Bloom"
+  ]
+ },
+ "skills": [
+  {
+   "slot": "Body Armour",
+   "main": true,
+   "gems": [
+    "Vortex",
+    "Controlled Destruction",
+    "Elemental Focus",
+    "Efficacy"
+   ]
+  },
+  {
+   "slot": "Helmet",
+   "gems": [
+    "Discipline",
+    "Clarity",
+    {
+     "name": "Enlighten",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "slot": "Gloves",
+   "gems": [
+    "Flame Dash",
+    "Faster Casting"
+   ]
+  }
+ ],
+ "items": [
+  {
+   "slot": "Weapon 1",
+   "text": "Rarity: RARE\nDread Song\nConvoking Wand\nItem Level: 84\n+1 to Level of all Cold Spell Skill Gems\n60% increased Spell Damage\n15% increased Cast Speed\n+40 to Intelligence"
+  },
+  {
+   "slot": "Weapon 2",
+   "text": "Rarity: RARE\nWoe Ward\nTitanium Spirit Shield\nItem Level: 84\n+80 to maximum Energy Shield\n80% increased Energy Shield\n+40% to Fire Resistance\n+40% to Lightning Resistance"
+  },
+  {
+   "slot": "Body Armour",
+   "text": "Rarity: RARE\nDoom Wrap\nVaal Regalia\nItem Level: 84\n+92 to maximum Energy Shield\n95% increased Energy Shield\n+42% to Cold Resistance\n+40% to Fire Resistance"
+  },
+  {
+   "slot": "Helmet",
+   "text": "Rarity: RARE\nGale Crown\nHubris Circlet\nItem Level: 84\n+58 to maximum Energy Shield\n80% increased Energy Shield\n+40% to Lightning Resistance\n+40% to Cold Resistance"
+  },
+  {
+   "slot": "Gloves",
+   "text": "Rarity: RARE\nHavoc Grip\nSorcerer Gloves\nItem Level: 84\n+45 to maximum Energy Shield\n70% increased Energy Shield\n+40% to Fire Resistance\n+40% to Lightning Resistance"
+  },
+  {
+   "slot": "Boots",
+   "text": "Rarity: RARE\nDread Stride\nSorcerer Boots\nItem Level: 84\n+45 to maximum Energy Shield\n25% increased Movement Speed\n+40% to Cold Resistance\n+40% to Fire Resistance"
+  },
+  {
+   "slot": "Amulet",
+   "text": "Rarity: RARE\nSoul Locket\nLapis Amulet\nItem Level: 84\n+45 to maximum Energy Shield\n20% increased maximum Energy Shield\n+40% to Lightning Resistance\n+40 to Intelligence"
+  },
+  {
+   "slot": "Ring 1",
+   "text": "Rarity: RARE\nStorm Loop\nSapphire Ring\nItem Level: 84\n+40 to maximum Energy Shield\n+40% to Fire Resistance\n+40% to Lightning Resistance\n+40 to Intelligence"
+  },
+  {
+   "slot": "Ring 2",
+   "text": "Rarity: RARE\nWoe Band\nSapphire Ring\nItem Level: 84\n+40 to maximum Energy Shield\n+40% to Fire Resistance\n+40% to Cold Resistance\n+40 to Intelligence"
+  },
+  {
+   "slot": "Belt",
+   "text": "Rarity: RARE\nGlyph Cord\nCrystal Belt\nItem Level: 84\n+40 to maximum Energy Shield\n+40% to Lightning Resistance\n+40% to Cold Resistance\n+30 to Strength"
+  },
+  {
+   "slot": "Flask 1",
+   "base": "Eternal Mana Flask"
+  },
+  {
+   "slot": "Flask 2",
+   "base": "Quicksilver Flask"
+  }
+ ],
+ "config": {
+  "enemyIsBoss": "Pinnacle"
+ }
+}

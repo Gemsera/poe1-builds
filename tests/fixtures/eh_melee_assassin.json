@@ -1,0 +1,229 @@
+{
+ "_meta": {
+  "source": "generated with poe1-builds v9 (melee Elemental Hit Assassin, dual claws, defence fill)",
+  "note": "fixture for the condition-aware fill (frenzy via Mark Mastery), masteries in the fill, anoint, eldritch implicits, magic flasks and the mechanic sweep"
+ },
+ "name": "Elemental Hit Assassin fixture",
+ "class": "Shadow",
+ "ascendancy": "Assassin",
+ "level": 92,
+ "profile": {
+  "investment": "medium",
+  "content": "bossing",
+  "mode": "softcore"
+ },
+ "bandit": "None",
+ "pantheon_major": "Solaris",
+ "pantheon_minor": "Ryslatha",
+ "tree": {
+  "nodes": [
+   "Trickery",
+   "Claws of the Falcon",
+   "Life Raker",
+   "Clever Thief",
+   "Blood Siphon",
+   "Blood Drinker",
+   "Resourcefulness",
+   "Revenge of the Hunted",
+   "Reflexes",
+   "Inveterate",
+   "Claws of the Magpie",
+   "Melding",
+   "Written in Blood",
+   "Heart of Oak",
+   "Coordination",
+   41263,
+   33989
+  ],
+  "ascendancy": [
+   "Unstable Infusion",
+   "For the Jugular",
+   "Mistwalker",
+   "Deathmarked"
+  ],
+  "masteries": [
+   {
+    "mastery": "Claw Mastery",
+    "effect": "Inherent Attack Speed bonus from Dual Wielding is doubled"
+   },
+   {
+    "mastery": "Claw Mastery",
+    "effect": "Gain 25 Mana per Enemy Hit with Off Hand Claw Attacks"
+   },
+   {
+    "mastery": "Life Mastery",
+    "effect": "+30 to maximum Life"
+   },
+   {
+    "mastery": "Evasion Mastery",
+    "effect": "100% increased Evasion Rating from Equipped Body Armour"
+   }
+  ],
+  "fill": "defence"
+ },
+ "skills": [
+  {
+   "slot": "Body Armour",
+   "main": true,
+   "gems": [
+    {
+     "name": "Elemental Hit",
+     "level": 21,
+     "quality": 20,
+     "skill_part": "Fire Attack"
+    },
+    "Elemental Damage with Attacks",
+    "Elemental Focus",
+    {
+     "name": "Multistrike",
+     "level": 5
+    },
+    {
+     "name": "Rage",
+     "level": 16
+    },
+    "Elemental Penetration"
+   ]
+  },
+  {
+   "slot": "Helmet",
+   "gems": [
+    "Grace",
+    {
+     "name": "Precision",
+     "level": 14
+    },
+    "Herald of Ice",
+    "Enlighten"
+   ]
+  },
+  {
+   "slot": "Gloves",
+   "gems": [
+    "Whirling Blades",
+    "Faster Attacks",
+    "Blood Rage",
+    {
+     "name": "Intimidating Cry",
+     "level": 8
+    }
+   ]
+  },
+  {
+   "slot": "Boots",
+   "gems": [
+    "Automation",
+    "Arcane Cloak"
+   ]
+  }
+ ],
+ "items": [
+  {
+   "slot": "Weapon 1",
+   "text": "Rarity: RARE\nGrim Talon\nImperial Claw\nItem Level: 84\nAdds 82 to 160 Fire Damage\nAdds 75 to 145 Cold Damage\nAttacks with this Weapon Penetrate 9% Elemental Resistances\n15% increased Attack Speed\n27% increased Critical Strike Chance\n+27% to Global Critical Strike Multiplier"
+  },
+  {
+   "slot": "Weapon 2",
+   "text": "Rarity: RARE\nStorm Talon\nImperial Claw\nItem Level: 84\nAdds 78 to 155 Fire Damage\nAdds 72 to 140 Cold Damage\nAttacks with this Weapon Penetrate 9% Elemental Resistances\n14% increased Attack Speed\n26% increased Critical Strike Chance\n+26% to Global Critical Strike Multiplier"
+  },
+  {
+   "slot": "Body Armour",
+   "text": "Rarity: RARE\nHonour Shroud\nZodiac Leather\nItem Level: 84\n+105 to maximum Life\n+400 to Evasion Rating\n80% increased Evasion Rating\n+15% chance to Suppress Spell Damage\n+38% to Fire Resistance\n+36% to Lightning Resistance",
+   "exarch": "+2% to all maximum Resistances",
+   "eater": "+15% to all Elemental Resistances"
+  },
+  {
+   "slot": "Helmet",
+   "text": "Rarity: RARE\nGale Crown\nLion Pelt\nItem Level: 84\n+98 to maximum Life\n+150 to Evasion Rating\n+38% to Cold Resistance\n+35% to Lightning Resistance\n+30% to Fire Resistance",
+   "exarch": "6% increased Damage per Power Charge",
+   "eater": "28% increased Attack Damage"
+  },
+  {
+   "slot": "Gloves",
+   "text": "Rarity: RARE\nKraken Grip\nSlink Gloves\nItem Level: 84\n+89 to maximum Life\nAdds 11 to 22 Cold Damage to Attacks\nAdds 12 to 24 Fire Damage to Attacks\n14% increased Attack Speed\n+35% to Lightning Resistance\n+32% to Fire Resistance",
+   "exarch": "13% increased Attack Speed",
+   "eater": "Inflict Fire Exposure on Hit, applying -16% to Fire Resistance"
+  },
+  {
+   "slot": "Boots",
+   "text": "Rarity: RARE\nDread Tread\nSlink Boots\nItem Level: 84\n+89 to maximum Life\n30% increased Movement Speed\n+12% chance to Suppress Spell Damage\n+36% to Cold Resistance\n+28% to Chaos Resistance",
+   "exarch": "10% increased Movement Speed",
+   "eater": "16% increased Elusive Effect"
+  },
+  {
+   "slot": "Amulet",
+   "text": "Rarity: RARE\nRune Locket\nAmber Amulet\nItem Level: 84\n+74 to maximum Life\n32% increased Elemental Damage with Attack Skills\n+30% to Global Critical Strike Multiplier\n+300 to Accuracy Rating\n+30% to Cold Resistance",
+   "anoint": "Throatseeker"
+  },
+  {
+   "slot": "Ring 1",
+   "text": "Rarity: RARE\nCorpse Band\nAmethyst Ring\nItem Level: 84\n+74 to maximum Life\nAdds 16 to 30 Cold Damage to Attacks\nAdds 15 to 27 Fire Damage to Attacks\n+38% to Lightning Resistance\n+30% to Fire Resistance"
+  },
+  {
+   "slot": "Ring 2",
+   "text": "Rarity: RARE\nDoom Loop\nAmethyst Ring\nItem Level: 84\n+74 to maximum Life\nAdds 2 to 48 Lightning Damage to Attacks\n+300 to Accuracy Rating\n+38% to Fire Resistance\n+30 to Intelligence"
+  },
+  {
+   "slot": "Belt",
+   "text": "Rarity: RARE\nGlyph Cord\nStygian Vise\nItem Level: 84\n+100 to maximum Life\n33% increased Elemental Damage with Attack Skills\n+36% to Cold Resistance\n+30% to Lightning Resistance\n+23 to Strength"
+  },
+  {
+   "slot": "Flask 1",
+   "text": "Rarity: MAGIC\nBubbling Divine Life Flask of Staunching\nDivine Life Flask\nItem Level: 84\nQuality: 20\n37% reduced Amount Recovered\n135% increased Recovery rate\n50% of Recovery applied Instantly\nGrants Immunity to Bleeding for 15 seconds if used while Bleeding\nGrants Immunity to Corrupted Blood for 15 seconds if used while affected by Corrupted Blood"
+  },
+  {
+   "slot": "Flask 2",
+   "text": "Rarity: MAGIC\nExperimenter's Quicksilver Flask of Heat\nQuicksilver Flask\nItem Level: 84\nQuality: 20\n38% increased Duration\nImmunity to Freeze and Chill during Effect"
+  },
+  {
+   "slot": "Flask 3",
+   "text": "Rarity: MAGIC\nChemist's Silver Flask of the Order\nSilver Flask\nItem Level: 84\nQuality: 20\n48% increased Charge Recovery\n62% reduced Effect of Curses on you during Effect"
+  },
+  {
+   "slot": "Flask 5",
+   "text": "Rarity: MAGIC\nChemist's Granite Flask of the Armadillo\nGranite Flask\nItem Level: 84\nQuality: 20\n48% increased Charge Recovery\n58% increased Armour during Effect"
+  },
+  {
+   "slot": "Flask 4",
+   "text": "Rarity: MAGIC\nFlagellant's Diamond Flask of Grounding\nDiamond Flask\nItem Level: 84\nQuality: 20\n33% chance to gain a Flask Charge when you deal a Critical Strike\n53% chance to Avoid being Shocked during Effect"
+  },
+  {
+   "slot": "Jewel",
+   "text": "Rarity: RARE\nSpark Eye\nViridian Jewel\nItem Level: 84\n+11% to Global Critical Strike Multiplier\n6% increased maximum Life\n+13% to Critical Strike Multiplier with Elemental Skills"
+  },
+  {
+   "slot": "Jewel",
+   "text": "Rarity: RARE\nStorm Glance\nViridian Jewel\nItem Level: 84\n+16% to Critical Strike Multiplier while Dual Wielding\n6% increased maximum Life\n+11% to Global Critical Strike Multiplier"
+  },
+  {
+   "slot": "Belt Abyssal Socket 1",
+   "text": "Rarity: RARE\nHorror Gem\nMurderous Eye Jewel\nItem Level: 84\n+38 to maximum Life\nAdds 13 to 26 Fire Damage to Attacks\nAdds 12 to 23 Cold Damage to Attacks"
+  }
+ ],
+ "config": {
+  "enemyIsBoss": "Pinnacle",
+  "usePowerCharges": true,
+  "buffElusive": true,
+  "playerCursedWithAssassinsMark": 30,
+  "multiplierRage": 30,
+  "conditionEnemyIntimidated": true
+ },
+ "requirements": {
+  "main_skill": "Elemental Hit",
+  "class": "Shadow",
+  "ascendancy": "Assassin"
+ },
+ "assumptions": [
+  "level 92, softcore trade, medium investment, bossing profile (not specified by the user)",
+  "dual Imperial Claws: melee Elemental Hit needs a melee weapon; the weapon type was not specified",
+  "headline skill part Fire Attack; Elemental Hit never repeats an element, so the report gives the per-element range",
+  "power charges 6/6 (Unstable Infusion on hit, Deathmarked's Assassin's Mark on rare/unique); frenzy charges 3/3 from the Mark Mastery (10% on hit vs marked, ~10 hits/s); 30 rage from Rage Support on melee hit; Elusive from Mistwalker (on crit); intimidate from Intimidating Cry (must be cast); flasks counted as up",
+  "Fire Exposure from the gloves applies to every hit; only the fire part of Elemental Hit benefits, which is why the fire part is the headline"
+ ],
+ "gear_basis": {
+  "main_skill": "Elemental Hit",
+  "weapon_class": "Claw (dual wield)",
+  "ascendancy": "Assassin",
+  "archetype": "attack, hit, elemental"
+ }
+}

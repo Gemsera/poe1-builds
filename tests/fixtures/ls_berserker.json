@@ -1,0 +1,221 @@
+{
+ "_meta": {
+  "source": "generated with poe1-builds v13 (Lightning Strike, Berserker, sword + shield)"
+ },
+ "name": "Lightning Strike Berserker",
+ "class": "Marauder",
+ "ascendancy": "Berserker",
+ "level": 92,
+ "profile": {
+  "investment": "medium",
+  "content": "bossing",
+  "mode": "softcore"
+ },
+ "bandit": "None",
+ "pantheon_major": "Lunaris",
+ "pantheon_minor": "Ryslatha",
+ "tree": {
+  "nodes": [
+   "Born to Fight",
+   "Warrior's Blood",
+   "Heart of the Warrior",
+   "Master of the Arena",
+   "Art of the Gladiator",
+   "Blade of Cunning",
+   "Fatal Blade",
+   "Golem's Blood",
+   "Bravery",
+   "Constitution",
+   "Barbarism",
+   "Cloth and Chain",
+   "Destroyer",
+   "Berserking",
+   "Lightning Walker",
+   "Dismembering",
+   "Disemboweling",
+   "Heartseeker",
+   "Juggernaut",
+   "Spirit of War",
+   "Mana Flows",
+   "Rampart",
+   28475,
+   34483
+  ],
+  "ascendancy": [
+   "Crave the Slaughter",
+   "Rite of Ruin",
+   "Aspect of Carnage",
+   "Defy Pain"
+  ],
+  "masteries": [
+   {
+    "mastery": "Life Mastery",
+    "effect": "+30 to maximum Life"
+   },
+   {
+    "mastery": "Life Mastery",
+    "effect": "Skills Cost Life instead of 15% of Mana Cost"
+   }
+  ],
+  "fill": "balanced"
+ },
+ "skills": [
+  {
+   "slot": "Body Armour",
+   "main": true,
+   "gems": [
+    {
+     "name": "Lightning Strike",
+     "level": 21,
+     "quality": 20
+    },
+    {
+     "name": "Multistrike",
+     "level": 5,
+     "quality": 20
+    },
+    {
+     "name": "Elemental Damage with Attacks",
+     "level": 5,
+     "quality": 20
+    },
+    "Increased Critical Damage",
+    {
+     "name": "Lightning Penetration",
+     "level": 5,
+     "quality": 20
+    },
+    "Inspiration"
+   ]
+  },
+  {
+   "slot": "Helmet",
+   "gems": [
+    "Determination",
+    "Herald of Thunder",
+    {
+     "name": "Precision",
+     "level": 14
+    },
+    "Enlighten"
+   ]
+  },
+  {
+   "slot": "Gloves",
+   "gems": [
+    "Berserk",
+    "Leap Slam",
+    "Blood Rage",
+    {
+     "name": "Intimidating Cry",
+     "level": 20
+    }
+   ]
+  },
+  {
+   "slot": "Boots",
+   "gems": [
+    "Cast when Damage Taken",
+    "Molten Shell",
+    {
+     "name": "Assassin's Mark",
+     "level": 10
+    }
+   ]
+  },
+  {
+   "slot": "Weapon 2",
+   "gems": [
+    "Enduring Cry"
+   ]
+  }
+ ],
+ "items": [
+  {
+   "slot": "Weapon 1",
+   "text": "Rarity: RARE\nStorm Fang\nEternal Sword\nItem Level: 84\nAdds 18 to 310 Lightning Damage\n48% increased Elemental Damage with Attack Skills\n24% increased Attack Speed\n+33% to Global Critical Strike Multiplier\n31% increased Critical Strike Chance"
+  },
+  {
+   "slot": "Weapon 2",
+   "text": "Rarity: RARE\nSoul Ward\nPinnacle Tower Shield\nItem Level: 84\n+120 to maximum Life\n85% increased Armour\n+38% to Fire Resistance\n+36% to Cold Resistance\n+20% to Chaos Resistance"
+  },
+  {
+   "slot": "Body Armour",
+   "text": "Rarity: RARE\nPain Hide\nAstral Plate\nItem Level: 84\n+105 to maximum Life\n+400 to Armour\n80% increased Armour\n+38% to Fire Resistance\n+36% to Lightning Resistance\n+30% to Cold Resistance",
+   "exarch": "+2% to all maximum Resistances",
+   "eater": "12% of Physical Damage from Hits taken as Fire Damage"
+  },
+  {
+   "slot": "Helmet",
+   "text": "Rarity: RARE\nGale Crown\nRoyal Burgonet\nItem Level: 84\n+95 to maximum Life\n+150 to Armour\n+38% to Cold Resistance\n+35% to Lightning Resistance\n+30% to Chaos Resistance",
+   "eater": "28% increased Attack Damage"
+  },
+  {
+   "slot": "Gloves",
+   "text": "Rarity: RARE\nKraken Grip\nTitan Gauntlets\nItem Level: 84\n+89 to maximum Life\nAdds 3 to 42 Lightning Damage to Attacks\n14% increased Attack Speed\n+35% to Lightning Resistance\n+30% to Chaos Resistance",
+   "exarch": "13% increased Attack Speed",
+   "eater": "Inflict Lightning Exposure on Hit, applying -16% to Lightning Resistance"
+  },
+  {
+   "slot": "Boots",
+   "text": "Rarity: RARE\nDread Tread\nTitan Greaves\nItem Level: 84\n+89 to maximum Life\n30% increased Movement Speed\n+36% to Cold Resistance\n+28% to Chaos Resistance",
+   "exarch": "10% increased Movement Speed",
+   "eater": "Regenerate 0.3% of Life per second per Endurance Charge"
+  },
+  {
+   "slot": "Amulet",
+   "text": "Rarity: RARE\nRune Locket\nAgate Amulet\nItem Level: 84\n+74 to maximum Life\n32% increased Elemental Damage with Attack Skills\n+30% to Global Critical Strike Multiplier\n+300 to Accuracy Rating\n+30% to Cold Resistance",
+   "anoint": "Heartseeker"
+  },
+  {
+   "slot": "Ring 1",
+   "text": "Rarity: RARE\nCorpse Band\nAmethyst Ring\nItem Level: 84\n+74 to maximum Life\nAdds 5 to 70 Lightning Damage to Attacks\n+38% to Fire Resistance\n+20% to Chaos Resistance\n+30 to Intelligence"
+  },
+  {
+   "slot": "Ring 2",
+   "text": "Rarity: RARE\nDoom Loop\nAmethyst Ring\nItem Level: 84\n+74 to maximum Life\nAdds 5 to 69 Lightning Damage to Attacks\n+300 to Accuracy Rating\n+38% to Fire Resistance\n+40 to Dexterity\nNon-Channelling Skills have -7 to Total Mana Cost (crafted)"
+  },
+  {
+   "slot": "Belt",
+   "text": "Rarity: RARE\nGlyph Cord\nStygian Vise\nItem Level: 84\n+100 to maximum Life\n33% increased Elemental Damage with Attack Skills\n+36% to Cold Resistance\n+30% to Lightning Resistance"
+  },
+  {
+   "slot": "Belt Abyssal Socket 1",
+   "text": "Rarity: RARE\nHorror Gem\nMurderous Eye Jewel\nItem Level: 84\n+38 to maximum Life\nAdds 3 to 38 Lightning Damage to Attacks"
+  },
+  {
+   "slot": "Jewel",
+   "text": "Rarity: RARE\nSpark Eye\nViridian Jewel\nItem Level: 84\n+11% to Global Critical Strike Multiplier\n6% increased maximum Life\n+13% to Critical Strike Multiplier with Elemental Skills"
+  },
+  {
+   "slot": "Jewel",
+   "text": "Rarity: RARE\nStorm Glance\nViridian Jewel\nItem Level: 84\n+16% to Critical Strike Multiplier with One Handed Melee Weapons\n6% increased maximum Life\n+11% to Global Critical Strike Multiplier"
+  },
+  {
+   "slot": "Flask 1",
+   "text": "Rarity: MAGIC\nBubbling Divine Life Flask of Staunching\nDivine Life Flask\nItem Level: 84\nQuality: 20\n37% reduced Amount Recovered\n135% increased Recovery rate\n50% of Recovery applied Instantly\nGrants Immunity to Bleeding for 15 seconds if used while Bleeding\nGrants Immunity to Corrupted Blood for 15 seconds if used while affected by Corrupted Blood"
+  },
+  {
+   "slot": "Flask 2",
+   "text": "Rarity: MAGIC\nExperimenter's Quicksilver Flask of Heat\nQuicksilver Flask\nItem Level: 84\nQuality: 20\n38% increased Duration\nImmunity to Freeze and Chill during Effect"
+  },
+  {
+   "slot": "Flask 3",
+   "text": "Rarity: MAGIC\nChemist's Silver Flask of the Order\nSilver Flask\nItem Level: 84\nQuality: 20\n48% increased Charge Recovery\n62% reduced Effect of Curses on you during Effect"
+  },
+  {
+   "slot": "Flask 5",
+   "text": "Rarity: MAGIC\nChemist's Granite Flask of the Armadillo\nGranite Flask\nItem Level: 84\nQuality: 20\n48% increased Charge Recovery\n58% increased Armour during Effect"
+  },
+  {
+   "slot": "Flask 4",
+   "text": "Rarity: MAGIC\nFlagellant's Diamond Flask of Grounding\nDiamond Flask\nItem Level: 84\nQuality: 20\n33% chance to gain a Flask Charge when you deal a Critical Strike\n53% chance to Avoid being Shocked during Effect"
+  }
+ ],
+ "config": {
+  "enemyIsBoss": "Pinnacle",
+  "conditionEnemyIntimidated": true,
+  "usePowerCharges": true,
+  "useEnduranceCharges": true
+ }
+}

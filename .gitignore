@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Build outputs written next to a spec or a checked build
+# (examples/*.json and tests/fixtures/*.json are sources and stay tracked)
+*.filled.json
+*.candidate_variants.json
+*.sweep_variants.json
+*.pob.txt
+*.xml
+checked_build.*
+out/
+runs/
+
+# Packaged skill / release archives
+*.skill
+*.zip
+dist/
+
+# Local Path of Building install and cache (setup.sh defaults to ~/.cache/poe1-pob;
+# these cover a POB_HOME pointed inside the repo)
+.cache/
+poe1-pob/
+
+# Editors and OS
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store
+Thumbs.db

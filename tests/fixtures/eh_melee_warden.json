@@ -1,0 +1,177 @@
+{
+ "_meta": {
+  "source": "generated with this skill (ordinary Elemental Hit Warden, dual claws, v4)",
+  "note": "test fixture for candidate discovery; Flask 4 (Jade) measures 0% DPS/EHP; ascendancy notables are node ids"
+ },
+ "name": "Elemental Hit Warden",
+ "class": "Ranger",
+ "ascendancy": "Warden",
+ "level": 92,
+ "profile": {
+  "investment": "medium",
+  "content": "mapping",
+  "mode": "softcore"
+ },
+ "bandit": "None",
+ "pantheon_major": "Solaris",
+ "pantheon_minor": "Ryslatha",
+ "tree": {
+  "nodes": [
+   "One With Nature",
+   "Primeval Force",
+   "Forces of Nature",
+   "Elemental Equilibrium",
+   "Heart of Oak",
+   "Herbalism",
+   "Intuition",
+   "Quickstep",
+   "Revenge of the Hunted",
+   "Thick Skin",
+   "Taste for Blood",
+   "Entrench",
+   "Reflexes",
+   "Blood Siphon",
+   "Bravery",
+   "Essence Sap",
+   "Inveterate",
+   "Hired Killer",
+   "Blood Drinker",
+   "Golem's Blood",
+   "Constitution",
+   "Profane Chemistry",
+   "Life Raker",
+   "Claws of the Magpie",
+   "Dervish",
+   "Weapon Artistry"
+  ],
+  "ascendancy": [
+   4849,
+   11597,
+   31364,
+   55509
+  ],
+  "masteries": [
+   {
+    "mastery": "Evasion Mastery",
+    "effect": "100% increased Evasion Rating from Equipped Body Armour"
+   },
+   {
+    "mastery": "Elemental Mastery",
+    "effect": "Elemental Resistance values as inverted"
+   },
+   {
+    "mastery": "Life Mastery",
+    "effect": "+30 to maximum Life"
+   }
+  ]
+ },
+ "skills": [
+  {
+   "slot": "Body Armour",
+   "main": true,
+   "gems": [
+    {
+     "name": "Elemental Hit",
+     "skill_part": "Cold Attack"
+    },
+    "Elemental Damage with Attacks",
+    "Trinity",
+    "Multistrike",
+    "Hypothermia",
+    "Inspiration"
+   ]
+  },
+  {
+   "slot": "Helmet",
+   "gems": [
+    "Grace",
+    "Precision"
+   ]
+  },
+  {
+   "slot": "Gloves",
+   "gems": [
+    "Dash",
+    "Second Wind"
+   ]
+  }
+ ],
+ "items": [
+  {
+   "slot": "Weapon 1",
+   "text": "Rarity: RARE\nGrim Talon\nImperial Claw\nItem Level: 84\nAdds 62 to 115 Cold Damage\nAdds 68 to 128 Fire Damage\nAdds 12 to 210 Lightning Damage\n23% increased Attack Speed\n+40 to Dexterity\n+250 to Accuracy Rating"
+  },
+  {
+   "slot": "Weapon 2",
+   "text": "Rarity: RARE\nStorm Talon\nImperial Claw\nItem Level: 84\nAdds 58 to 110 Cold Damage\nAdds 64 to 122 Fire Damage\nAdds 11 to 200 Lightning Damage\n23% increased Attack Speed\n+35 to Dexterity\n+250 to Accuracy Rating"
+  },
+  {
+   "slot": "Body Armour",
+   "text": "Rarity: RARE\nHonour Shroud\nZodiac Leather\nItem Level: 84\n+90 to maximum Life\n+250 to Evasion Rating\n70% increased Evasion Rating\n+14% chance to Suppress Spell Damage\n+35% to Cold Resistance\n+30% to Lightning Resistance"
+  },
+  {
+   "slot": "Helmet",
+   "text": "Rarity: RARE\nGale Crown\nLion Pelt\nItem Level: 84\n+80 to maximum Life\n+120 to Evasion Rating\n+35% to Fire Resistance\n+30% to Cold Resistance"
+  },
+  {
+   "slot": "Gloves",
+   "text": "Rarity: RARE\nKraken Grip\nSlink Gloves\nItem Level: 84\n+70 to maximum Life\nAdds 11 to 22 Cold Damage to Attacks\n12% increased Attack Speed\n+35% to Lightning Resistance\n+30% to Fire Resistance"
+  },
+  {
+   "slot": "Boots",
+   "text": "Rarity: RARE\nDread Tread\nSlink Boots\nItem Level: 84\n+70 to maximum Life\n30% increased Movement Speed\n+9% chance to Suppress Spell Damage\n+35% to Cold Resistance\n+25% to Chaos Resistance"
+  },
+  {
+   "slot": "Amulet",
+   "text": "Rarity: RARE\nRune Locket\nTurquoise Amulet\nItem Level: 84\n+60 to maximum Life\n33% increased Elemental Damage with Attack Skills\n+300 to Accuracy Rating\n+30% to Fire Resistance"
+  },
+  {
+   "slot": "Ring 1",
+   "text": "Rarity: RARE\nCorpse Band\nAmethyst Ring\nItem Level: 84\n+60 to maximum Life\nAdds 15 to 30 Cold Damage to Attacks\n+40 to Intelligence\n+35% to Lightning Resistance"
+  },
+  {
+   "slot": "Ring 2",
+   "text": "Rarity: RARE\nDoom Loop\nAmethyst Ring\nItem Level: 84\n+60 to maximum Life\nAdds 17 to 34 Fire Damage to Attacks\n+300 to Accuracy Rating\n+35% to Fire Resistance\n+30 to Intelligence"
+  },
+  {
+   "slot": "Belt",
+   "text": "Rarity: RARE\nGlyph Cord\nStygian Vise\nItem Level: 84\n+100 to maximum Life\n33% increased Elemental Damage with Attack Skills\n+35% to Cold Resistance\n+30% to Lightning Resistance"
+  },
+  {
+   "slot": "Flask 1",
+   "base": "Divine Life Flask"
+  },
+  {
+   "slot": "Flask 2",
+   "text": "Rarity: MAGIC\nExperimenter's Quicksilver Flask of Adrenaline\nQuicksilver Flask\nItem Level: 84\nQuality: 20\n38% increased Duration\n10% increased Movement Speed during Effect"
+  },
+  {
+   "slot": "Flask 3",
+   "base": "Silver Flask"
+  },
+  {
+   "slot": "Flask 4",
+   "base": "Jade Flask"
+  },
+  {
+   "slot": "Flask 5",
+   "base": "Granite Flask"
+  }
+ ],
+ "config": {
+  "enemyIsBoss": "Pinnacle",
+  "conditionEnemyChilled": true,
+  "enemyConditionHitByLightningDamage": true,
+  "configResonanceCount": 15
+ },
+ "requirements": {
+  "main_skill": "Elemental Hit",
+  "class": "Ranger",
+  "ascendancy": "Warden"
+ },
+ "assumptions": [
+  "level 92, softcore trade, medium investment, mapping (not specified by the user)",
+  "dual Imperial Claws: Elemental Hit needs a melee weapon; the weapon type was not specified",
+  "headline part Cold Attack with Elemental Equilibrium's 'hit by Lightning' state (the skill never repeats an element)"
+ ]
+}

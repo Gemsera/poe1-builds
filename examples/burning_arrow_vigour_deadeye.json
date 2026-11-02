@@ -1,0 +1,199 @@
+{
+ "_meta": {
+  "archetype": "life-stacking bow attack (Deadeye, Mirage Archer)",
+  "source": "generated and validated with this skill",
+  "pob_version": "2.67.2",
+  "tree_version": "3_29",
+  "status": "VALID with the audit's bossing profile (2026-10-27)",
+  "limitations": [
+   "3 Mirage Archers assumed (PoB default with Occupying Force)",
+   "flask uptime is assumed by PoB",
+   "frenzy charges need the Frenzy gem pressed manually",
+   "the last point is spent by tree.fill (balanced)"
+  ]
+ },
+ "name": "Burning Arrow of Vigour Life Stacking Deadeye",
+ "class": "Ranger",
+ "ascendancy": "Deadeye",
+ "level": 95,
+ "profile": {
+  "investment": "high",
+  "content": "bossing",
+  "mode": "softcore"
+ },
+ "bandit": "None",
+ "pantheon_major": "Solaris",
+ "pantheon_minor": "Ryslatha",
+ "tree": {
+  "nodes": [
+   "Heart of Oak",
+   "Intuition",
+   "Herbalism",
+   "Revenge of the Hunted",
+   "Thick Skin",
+   "Blood Siphon",
+   "Bravery",
+   "Blood Drinker",
+   "Hired Killer",
+   "Aspect of the Eagle",
+   "Avatar of the Hunt",
+   "Farsight",
+   "One With Nature",
+   "Primeval Force",
+   "Blood Magic",
+   "Golem's Blood",
+   "Constitution",
+   "Lava Lash",
+   "Bloodless",
+   "Master Fletcher",
+   "Profane Chemistry",
+   "Heart of the Warrior"
+  ],
+  "ascendancy": [
+   "Occupying Force",
+   "Endless Munitions",
+   "Focal Point",
+   "Gathering Winds"
+  ],
+  "masteries": [
+   {
+    "mastery": "Life Mastery",
+    "effect": "+30 to maximum Life"
+   },
+   {
+    "mastery": "Life Mastery",
+    "effect": "10% more Maximum Life if you have at least 6"
+   },
+   {
+    "mastery": "Life Mastery",
+    "effect": "Skills Cost Life instead of 15%"
+   },
+   {
+    "mastery": "Life Mastery",
+    "effect": "count as on Full Life while at 90%"
+   },
+   {
+    "mastery": "Life Mastery",
+    "effect": "15% increased maximum Life if there are no Life Modifiers"
+   },
+   {
+    "mastery": "Life Mastery",
+    "effect": "count as on Low Life while at 55%"
+   }
+  ],
+  "fill": "balanced"
+ },
+ "skills": [
+  {
+   "slot": "Weapon 1",
+   "main": true,
+   "gems": [
+    "Burning Arrow of Vigour",
+    "Mirage Archer",
+    "Barrage Support",
+    "Fire Penetration",
+    "Elemental Damage with Attacks",
+    "Elemental Focus"
+   ]
+  },
+  {
+   "slot": "Gloves",
+   "gems": [
+    {
+     "name": "Cast when Damage Taken",
+     "level": 1
+    },
+    {
+     "name": "Steelskin",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "slot": "Gloves",
+   "gems": [
+    "Frenzy",
+    "Blood Rage"
+   ]
+  },
+  {
+   "slot": "Boots",
+   "gems": [
+    "Dash",
+    "Second Wind",
+    "Sniper's Mark"
+   ]
+  }
+ ],
+ "items": [
+  {
+   "slot": "Weapon 1",
+   "unique": "Lioneye's Glare"
+  },
+  {
+   "slot": "Weapon 2",
+   "unique": "Rearguard"
+  },
+  {
+   "slot": "Body Armour",
+   "unique": "Kaom's Heart"
+  },
+  {
+   "slot": "Helmet",
+   "unique": "Crown of the Inward Eye"
+  },
+  {
+   "slot": "Gloves",
+   "text": "Rarity: RARE\nGrim Grip\nSlink Gloves\nItem Level: 84\n+90 to maximum Life\n+40% to Cold Resistance\n+40% to Lightning Resistance\n+45 to Dexterity",
+   "exarch": "6% increased Damage per Frenzy Charge",
+   "eater": "Inflict Fire Exposure on Hit, applying -16% to Fire Resistance"
+  },
+  {
+   "slot": "Boots",
+   "text": "Rarity: RARE\nDusk Stride\nSlink Boots\nItem Level: 84\n+90 to maximum Life\n30% increased Movement Speed\n+40% to Cold Resistance\n+40% to Fire Resistance",
+   "exarch": "+17% to Chaos Resistance",
+   "eater": "32% chance to Avoid Elemental Ailments"
+  },
+  {
+   "slot": "Amulet",
+   "unique": "Defiance of Destiny",
+   "anoint": "Written in Blood"
+  },
+  {
+   "slot": "Ring 1",
+   "text": "Rarity: RARE\nBlood Band\nAmethyst Ring\nItem Level: 84\n+90 to maximum Life\n+40% to Fire Resistance\n+40% to Cold Resistance\n+45 to Intelligence"
+  },
+  {
+   "slot": "Ring 2",
+   "text": "Rarity: RARE\nGore Loop\nAmethyst Ring\nItem Level: 84\n+90 to maximum Life\n+40% to Lightning Resistance\n+40% to Cold Resistance\n+45 to Intelligence"
+  },
+  {
+   "slot": "Belt",
+   "text": "Rarity: RARE\nGlyph Cord\nStygian Vise\nItem Level: 84\n+120 to maximum Life\n+40% to Fire Resistance\n+40% to Lightning Resistance\n+30% to Chaos Resistance"
+  },
+  {
+   "slot": "Flask 1",
+   "text": "Rarity: MAGIC\nBubbling Divine Life Flask of Heat\nDivine Life Flask\nItem Level: 84\nQuality: 20\nGain 3 Charges when you are Hit by an Enemy\nGrants Immunity to Chill for 16 seconds if used while Chilled\nGrants Immunity to Freeze for 16 seconds if used while Frozen"
+  },
+  {
+   "slot": "Flask 2",
+   "text": "Rarity: MAGIC\nExperimenter's Quicksilver Flask of Adrenaline\nQuicksilver Flask\nItem Level: 84\nQuality: 20\n38% increased Duration\n10% increased Movement Speed during Effect"
+  },
+  {
+   "slot": "Flask 3",
+   "text": "Rarity: MAGIC\nSurgeon's Granite Flask of the Warding\nGranite Flask\nItem Level: 84\nQuality: 20\nGain 3 Charges when you are Hit by an Enemy\n62% reduced Effect of Curses on you during Effect"
+  },
+  {
+   "slot": "Flask 4",
+   "text": "Rarity: MAGIC\nSurgeon's Jade Flask of Heat\nJade Flask\nItem Level: 84\nQuality: 20\nGain 3 Charges when you are Hit by an Enemy\n37% less Duration\nImmunity to Freeze and Chill during Effect"
+  },
+  {
+   "slot": "Flask 5",
+   "text": "Rarity: MAGIC\nSurgeon's Silver Flask of the Leeching\nSilver Flask\nItem Level: 84\nQuality: 20\nGain 3 Charges when you are Hit by an Enemy\n0.8% of Attack Damage Leeched as Life during Effect"
+  }
+ ],
+ "config": {
+  "enemyIsBoss": "Pinnacle",
+  "useFrenzyCharges": true
+ }
+}
